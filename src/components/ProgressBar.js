@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import classes from "../styles/ProgressBar.module.css";
+import classes from "../styles/Progressbar.module.css";
 import Button from "./Button";
 export default function ProgressBar({ next, prev, submit, progress }) {
   const [tooltip, setTollTip] = useState();
